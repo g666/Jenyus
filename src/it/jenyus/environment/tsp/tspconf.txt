@@ -1,0 +1,64 @@
+#
+#  dim
+#  (x,y) indica la dimensione della matrice
+#
+#  name
+#  (name_1, name_2, name_3) indica la nomenclatura del grafo
+#
+# Graph
+# la terna (i, j, z) rappresenta il costo z dell'arco (i,j)
+#
+# DataSet
+# (x1,x2, x3, x4) rappresenta il cammino da x1 a x4
+#	Example:
+#
+#	dim
+#	4,4
+#
+#	name
+#	A,B,C,D
+#
+#	Graph
+#	**
+#	A,B,41
+#	**
+#
+#	DataSet
+#	A,B,D,C
+#
+dim
+5,5
+name
+A,B,C,D,E
+Graph
+**
+A,B,5
+A,C,15
+A,D,5
+A,E,7
+B,A,5
+B,C,5
+B,D,2
+B,E,3
+C,A,15
+C,B,5
+C,D,4
+C,E,1
+D,A,5
+D,B,2
+D,C,4
+D,E,3
+E,A,7
+E,B,3
+E,C,1
+E,D,3
+**
+DataSet
+A,B,C,D,E,A
+B,C,A,D,E,B
+C,B,A,D,E,C
+A,B,C,E,D,A
+A,B,D,E,A,A
+B,A,E,D,C,B
+A,E,B,D,C,A
+C,E,B,D,A,C

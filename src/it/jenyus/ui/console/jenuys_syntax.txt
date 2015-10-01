@@ -1,0 +1,15 @@
+genetic algorithm sintax:
+-help		-h
+-quit		-q
+-showp		-sp
+-use		-u
+-chrolen	-chlen
+-popdim		-pdim
+-elitethr	-elthr
+-niter		-nit
+
+tsp syntax
+show option
+exit
+set ...
+run

@@ -1,0 +1,20 @@
+#
+# f:10-12-5-7-9 indica la funzione obiettivo
+# v:5-8-6-2-7	indica i vincoli del problema
+# w:1-7-8-5-4	indica il peso di ogni oggetto
+# b:14 			indica la capacità dello zaino
+# eof			end of file
+#
+#	DataSet
+#	1,0,1,0,1	indica una possibile soluzione rappresentata dall'inserimento nello zaino degli oggetti x1, x3, x5
+#
+# NB: nel DataSet i valori ammessi sono {1, 0}
+#
+f:32-36-15-20-5
+v:16-9-5-8-5
+w:16-9-5-8-5
+b:32
+d:0,1,0,0,0
+d:0,1,0,0,0
+d:0,1,0,1,0
+d:0,1,1,0,0
